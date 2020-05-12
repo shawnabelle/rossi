@@ -1,0 +1,86 @@
+
+#TopImg {
+    background: black;
+    height: 100vh;
+
+    background-image: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%), url("https://images.pexels.com/photos/1239312/pexels-photo-1239312.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+    position: relative;
+    img {
+        width: 400px;
+ left: 30%;
+   transform: translate(-5%, -50%);
+   position: absolute;
+  
+    
+    }
+
+.title {
+    padding: 150px 0 80px;
+    text-align: center;
+    
+    .reserve-btn {
+        font-family: $textFont;
+        padding: 20px 40px;
+        display: inline-block;
+     
+        text-align: center;
+        text-decoration: none;
+        background: $red;
+        color: #fff;
+        text-transform: uppercase;
+        transition: all .6s ease-in-out;
+   
+       &:hover {
+           background: #fff;
+           color: $red;
+       }
+      
+       
+    }
+    
+        h1 {
+            font-family: $displayFont;
+            color: white;
+          font-weight: bold;
+            font-size: 4.5rem;
+        }
+
+        h5 {
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+    
+        }
+    }
+    .contact-info {
+       
+       right: 15%;
+        color: $paragraphColor;
+        font-size: .8rem;
+        line-height: 1.5rem;
+        position: absolute;
+  bottom: 10px;
+
+     
+     
+        strong {
+            font-weight: bold;
+            color: white;
+        }
+        .booking {
+            margin-bottom: 10px;
+            color: $paragraphColor;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #fff;
+           
+        
+        }
+       
+    }
+}
+

@@ -1,0 +1,43 @@
+
+#ContactUs {
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+    background-image: url("https://image.freepik.com/free-photo/white-texture_1160-786.jpg");
+    background-position: center;
+    background-size: cover;
+    h2, h5 {
+        text-align: center;
+    }
+    .box {
+        background: #fff;
+        padding: 50px;
+       .title {
+           font-family: $textFont;
+           font-size: 2rem;
+           margin-bottom: 2rem;
+       }
+       h6 {
+           font-size: .9rem;
+           font-weight: 600;
+           color: $titleColor;
+           line-height: 1.7;
+       }
+       p {
+           font-weight: 400;
+           margin-bottom: 20px;
+           strong {
+               color: $black;
+               text-transform: capitalize;
+               font-weight: 600;
+           }
+           a {
+               color: $paragraphColor;
+               text-decoration: none;
+               &:hover {
+                   color: $red;
+                   font-weight: 500;
+               }
+           }
+       }
+    }
+}

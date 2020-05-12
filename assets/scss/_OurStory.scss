@@ -1,0 +1,62 @@
+
+#OurStory {
+    padding: 100px 0;
+    
+    .quote {
+        color: $paragraphColor;
+        font-style: italic;
+        margin-bottom: 3rem;
+        strong {
+            font-weight: 700;
+            color: $black;
+        }
+    }
+    .reserve-btn {
+        font-family: $textFont;
+        padding: 20px 40px;
+        display: inline-block;
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        transition: all .6s ease-in-out;
+   
+       &:hover {
+           background: $red;
+           color: white;
+       }
+    }
+    .video-img {
+       max-width: 400px;
+        height: 550px;
+        background: linear-gradient(135deg, rgba(0,0,0,.1) 0 ,#000 100%);
+        background-image: linear-gradient(135deg, rgba(0,0,0,.1) 0 ,#000 100%), url("https://images.pexels.com/photos/3621225/pexels-photo-3621225.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        background-position: right;
+        background-size: cover;
+  margin: 0 auto; 
+
+    }
+   
+    
+}
+
+
+//mobile responsive
+
+@media screen and (max-width: 760px) {
+    
+    #OurStory {
+        a.reserve-btn {       
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 2rem;
+  
+            }
+            
+            
+    }
+    
+}

@@ -1,0 +1,37 @@
+
+#Footer {
+    padding: 100px 0;
+    background: $footerBG;
+    text-align: center;
+    nav {
+        margin: 0 auto;
+        a {
+            color: #fff;
+            display: inline-block;
+            padding: 10px 20px 10px 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            &:hover {
+                color: $red;
+            }
+        } 
+    }
+    .social-media {
+margin: 0 0 50px;
+padding: 0;
+li {
+    display: inline-block;
+    padding: 20px;
+    a {
+        color: white;
+        &:hover {
+            color: $red;
+        }
+    }
+}
+    }
+    .copyright {
+        color: $titleColor;
+    }
+}

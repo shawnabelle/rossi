@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    color: $black;
+
+}
+
+h2 {
+    font-family: $displayFont;
+    font-size: 3rem;
+    margin: .5rem 0 3rem;
+    text-transform: capitalize;
+    color: $black;
+}
+h5 {
+    font-family: $textFont;
+    color: $titleColor;
+    font-size: 1.5rem;
+    margin: .5rem 0 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+p {
+    font-size: 1.1rem;
+    color: $paragraphColor;
+    line-height: 1.8;
+    margin: .5rem 0 3rem;
+    font-weight: 300;
+}
+a {
+    transition: all .5s ease-in-out;
+    &:hover{
+        color: $red;
+    }
+}
+strong {
+    font-weight: 600;
+    color: $black;
+}
+em {
+    font-style: italic;
+}

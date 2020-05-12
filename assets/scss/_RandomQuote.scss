@@ -1,0 +1,29 @@
+
+#RandomQuote {
+        background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+        
+        background-position: right;
+        background-size: cover;
+  margin: 0 auto; 
+  padding: 200px 0;
+h1 {
+    color: white;
+    font-family: $textFont;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    max-width: 550px;
+    margin: 0 auto 30px;
+    line-height: 1.2;
+    
+}
+span {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+}
+}
