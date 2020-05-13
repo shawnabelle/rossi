@@ -1,10 +1,8 @@
 #SpecialMenu {
     padding: 100px 0;
-   
-  
-    background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
-    background-image: url("https://image.freepik.com/free-photo/white-texture_1160-786.jpg");
-    background-position: center;
+    background-color: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+    background: black url("https://image.freepik.com/free-photo/white-texture_1160-786.jpg") no-repeat center center;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
     h2, h5 {
@@ -64,6 +62,7 @@
         font-family: $displayFont;
         text-align: center;
         display: block;
+        font-size: 2rem;
     
                 }
 }

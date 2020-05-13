@@ -1,9 +1,9 @@
 
 #RandomQuote {
         background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
-        
+        background-attachment: fixed;
+    background-size: cover;
         background-position: right;
-        background-size: cover;
   margin: 0 auto; 
   padding: 200px 0;
 h1 {

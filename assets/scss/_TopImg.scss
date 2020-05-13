@@ -2,9 +2,9 @@
 #TopImg {
     background: black;
     height: 100vh;
-
     background-image: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%), url("https://images.pexels.com/photos/1239312/pexels-photo-1239312.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  background-position: center;
+    background-attachment: fixed;
+    background-position: center;
   background-size: cover;
     position: relative;
     img {
@@ -17,7 +17,7 @@
     }
 
 .title {
-    padding: 150px 0 80px;
+    padding: 190px 0 80px;
     text-align: center;
     
     .reserve-btn {

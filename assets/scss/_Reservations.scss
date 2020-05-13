@@ -1,0 +1,82 @@
+
+#Reservations {
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+    background: black url("https://image.freepik.com/free-photo/white-texture_1160-786.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+ form {
+width: 80%;
+padding: 2rem;
+background: #fff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+input {
+    width: 100%;
+height: 3rem;
+display: block;
+padding: .7rem;
+margin-bottom: 1rem;
+}
+    .reserve-btn {
+        font-family: $textFont;
+        padding: 15px 30px;
+        display: inline-block;
+        border: 1px solid $green;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        transition: all .6s ease-in-out;
+        margin-top: 1rem;
+        background: $red;
+
+   
+       &:hover {
+          opacity: .7;
+       }
+    }
+ }  
+   
+    .video-img {
+       max-width: 400px;
+        height: 600px;
+        background-image: linear-gradient(205deg, rgba(0,0,0,.1) 0 ,#000 100%), url("https://images.unsplash.com/photo-1587900058576-37c5ea6af9e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+        background-position: center;
+        background-size: cover;
+       margin-top: 100px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     
+
+
+    }
+   
+    
+}
+
+
+//mobile responsive
+
+@media screen and (max-width: 760px) {
+    
+    #OurStory {
+        a.reserve-btn {       
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 2rem;
+  
+            }
+            
+            
+    }
+    
+}

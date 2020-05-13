@@ -18,7 +18,7 @@ export default function Header({ state, actions }) {
 					<a href="#OurStory">Our Story</a>
 					<a href="#Reviews">Reviews</a>
 					<a href="#SpecialMenu">Special Menu</a>
-					<a href="#ContactUs">Reservations</a>
+					<a href="#Reservations">Reservations</a>
 					<a href="#ContactUs">Contact Us</a>
 				</nav>
 			</div>
@@ -36,7 +36,3 @@ window.onload = function() {
 		});
 	});
 };
-
-// links.addEventListener('click', () => {
-// 	navLinks.classList.remove('open');
-// });
