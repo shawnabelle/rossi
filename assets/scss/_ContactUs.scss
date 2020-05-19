@@ -41,3 +41,15 @@
        }
     }
 }
+
+
+@media screen and (max-width: 760px) {
+    
+    #ContactUs {
+        padding: 100px 0;
+        background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+        background-image: url("https://image.freepik.com/free-photo/background-blurry-restaurant-shop-interior_1203-4031.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -8,7 +8,7 @@ export default function TopImg({ state, actions }) {
 					<h5>Welcome To</h5>
 					<h1>Rossi's</h1>
 					<h5>{state.companyInfo.title}</h5>
-					<a href="#" class="reserve-btn">
+					<a href="#Reservations" class="reserve-btn">
 						Reserve Table
 					</a>
 				</div>

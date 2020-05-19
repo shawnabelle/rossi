@@ -18,6 +18,9 @@
     img {
        width: 100%;
        text-align: center;
+       object-fit: cover;
+       object-position: center;
+
     }
          
         }
@@ -65,4 +68,16 @@
         font-size: 2rem;
     
                 }
+}
+
+
+@media screen and (max-width: 760px) {
+    
+    #SpecialMenu {
+        padding: 100px 0;
+        background-color: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+        background: black url("https://image.freepik.com/free-photo/white-texture_1160-786.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+    }
 }

@@ -27,3 +27,14 @@ span {
     display: block;
 }
 }
+
+@media screen and (max-width: 760px) {
+    
+    #RandomQuote {
+        background: linear-gradient(135deg, rgba(0,0,0,.2) 0 ,#000 100%);
+    background-size: cover;
+    background-position: center;
+  margin: 0 auto; 
+  padding: 200px 0;
+    }
+}

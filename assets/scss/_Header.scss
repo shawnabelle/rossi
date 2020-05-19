@@ -53,18 +53,21 @@ header {
     
         
      
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
         .line {
             width: 30px;
             height: 3px;
             background: #ffffff;
             margin: 5px;
+            cursor: pointer;
         }
         nav {
             position: relative;
+            cursor: pointer;
            
            
         }
+       
         .hamburger {
             position: absolute;
             cursor: pointer;
@@ -72,6 +75,8 @@ header {
             top: 50%;
             transform: translate(-5%, -50%);
             z-index: 1;
+         color: $red;
+          
         }
             .nav-links {
             position: fixed;
@@ -85,6 +90,7 @@ header {
             -webkit-clip-path: circle(40px at 90% -10%);
             transition: all 1s ease;
             pointer-events: all;
+            cursor: pointer;
             &:visited {
                 color: #fff;
 
@@ -100,6 +106,7 @@ header {
             -webkit-clip-path: circle(1200px at 90% -10%);
             pointer-events: all;
             color: #fff;
+            cursor: pointer;
         }
         
         
@@ -113,6 +120,7 @@ header {
           top: 50%;
             left: 50%;
             text-align: center;
+            cursor: pointer;
             &:visited {
                 color: #fff;
 

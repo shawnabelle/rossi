@@ -21,6 +21,7 @@ export default function OurStory({ state, actions }) {
 								placeholder="Contact Number"
 								required
 							></input>
+							<input type="text" name="email" placeholder="Email"></input>
 							<input
 								type="datetime-local"
 								name="date"
@@ -38,11 +39,11 @@ export default function OurStory({ state, actions }) {
 								max="10"
 								required
 							></input>
-							<input type="text" name="email" placeholder="Email"></input>
+
 							<input
 								type="submit"
 								name="submit"
-								class="submit reserve-btn"
+								class="reserve-btn"
 								value="Book Table"
 							/>
 						</form>

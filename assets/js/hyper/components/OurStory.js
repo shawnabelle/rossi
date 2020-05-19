@@ -20,7 +20,7 @@ export default function OurStory({ state, actions }) {
 							"The best bang for your taste buds in town"
 							<strong>-Jeremy Smith</strong>
 						</div>
-						<a href="#" class="reserve-btn">
+						<a href="#Reservations" class="reserve-btn">
 							Reserve
 						</a>
 					</div>
